@@ -1,41 +1,98 @@
-# Personal Expense Tracker in C
+# Personal Expense Tracker (C & Python)
 
-A simple command-line based Personal Expense Tracker built using the C programming language.
+A simple **command-line Personal Expense Tracker** built using **C and Python**.
 
-This project allows users to record daily expenses, categorize them, and calculate total spending.
+This project demonstrates how the **same real-world problem** can be solved using two different programming languages.
+
+The application allows users to **record daily expenses, categorize spending, and calculate total expenses** for better budgeting and expense management.
+
+---
 
 ## Features
 
-- Add expenses
+- Add new expenses
 - Categorize spending (Food, Transport, Shopping, Other)
 - View all recorded expenses
 - Calculate total spending
-- Menu-driven interface
+- Menu-driven command-line interface
+
+---
 
 ## Technologies Used
 
+### C Version
 - C Programming Language
 - Structures
 - Arrays
 - Functions
-- Loops and Switch Case
+- Loops
+- Switch Case
+
+### Python Version
+- Python Programming Language
+- Lists
+- Dictionaries
+- Functions
+- Loops
+- Conditional Statements
+
+---
+
+## Project Structure
+
+```
+personal-expense-tracker
+│
+├── expense_tracker.c
+├── expense_tracker.py
+└── README.md
+```
+
+---
 
 ## How to Run
 
-1. Compile the program
+### Run the C Version
 
+Compile the program:
+
+```
 gcc expense_tracker.c -o expense
+```
 
-2. Run the program
+Run the program:
 
+Linux / Mac
+```
 ./expense
+```
 
-(Windows)
-
+Windows
+```
 expense.exe
+```
+
+---
+
+### Run the Python Version
+
+Run the program using Python:
+
+```
+python expense_tracker.py
+```
+
+or
+
+```
+python3 expense_tracker.py
+```
+
+---
 
 ## Example Output
 
+```
 ====== Personal Expense Tracker ======
 
 1. Add Expense
@@ -44,6 +101,9 @@ expense.exe
 4. Exit
 
 Enter your choice:
+```
+
+---
 
 ## Future Improvements
 
@@ -51,8 +111,11 @@ Enter your choice:
 - Category-wise expense report
 - Monthly budget tracking
 - Delete expense feature
+- Data visualization for spending
+
+---
 
 ## Author
 
-Subrata Das  
+**Subrata Das**  
 B.Tech CSE Student
